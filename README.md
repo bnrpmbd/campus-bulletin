@@ -44,6 +44,7 @@ npm run dev
 ![Alt text](assets/clubs.png)
 
 ### Tampilan Output php artisan route:list
-![Alt text](path/to/route-file.png)
+![Alt text](path/to/route-list.png)
 
 ---
+
