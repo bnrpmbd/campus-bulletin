@@ -4,7 +4,7 @@ use App\Http\Controllers\ClubController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Carbon; //opsional untuk format waktu
 
-Route::get('/', function () {
+Route::get('/health', function () {
     return response()->json([
         'status' => 'ok',
         'time' => now()->toISOString(),
