@@ -8,7 +8,7 @@ Berikut panduan untuk menjalankan aplikasi secara lokal.
 ## 🚀 Cara Menjalankan
 
 ### 1. Clone Repository
-* bash
+*bash*
 - git clone https://github.com/username/campus-bulletin.git
 - cd campus-bulletin
 
@@ -47,5 +47,6 @@ Berikut panduan untuk menjalankan aplikasi secara lokal.
 ![Alt text](path/to/route-list.png)
 
 ---
+
 
 
