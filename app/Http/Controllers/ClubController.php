@@ -8,9 +8,10 @@ class ClubController extends Controller
     public function index(): View
     {
         $clubs = [
-            ['name' => 'AI & Robotics', 'category' => 'Tech', 'day' => 'Rabu'],
-            ['name' => 'Gamelan Nusantara', 'category' => 'Arts', 'day' => 'Jumat'],
-            ['name' => 'Basket Warriors', 'category' => 'Sports', 'day' => 'Senin'],
+            ['name' => 'URDC', 'category' => 'Tech', 'day' => 'Rabu'],
+            ['name' => 'Futsal', 'category' => 'Sports', 'day' => 'Jumat'],
+            ['name' => 'Web Development', 'category' => 'Tech', 'day' => 'Senin'],
+            ['name' => 'Rebana Diponegoro University', 'category' => 'Arts', 'day' => 'Sabtu'],
         ];
         return view('clubs.index', compact('clubs'));
     }
