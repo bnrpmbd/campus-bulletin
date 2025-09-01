@@ -9,25 +9,25 @@ Berikut panduan untuk menjalankan aplikasi secara lokal.
 
 ### 1. Clone Repository
 * bash
-git clone https://github.com/username/campus-bulletin.git
-cd campus-bulletin
+- git clone https://github.com/username/campus-bulletin.git
+- cd campus-bulletin
 
 ### 2. Install Dependency
-composer install
-npm install
+- composer install
+- npm install
 
 ### 3. Copy File Environment
-cp .env.example .env
+- cp .env.example .env
 
 ### 4. Generate Key
-php artisan key:generate
+- php artisan key:generate
 
 ### 5. Migrate Database
-php artisan migrate
+- php artisan migrate
 
 ### 6. Jalankan Server
-php artisan serve
-npm run dev
+- php artisan serve
+- npm run dev
 
 ## 🛠 Tech Stack
 - PHP (Laravel + Blade)
@@ -47,4 +47,5 @@ npm run dev
 ![Alt text](path/to/route-list.png)
 
 ---
+
 
