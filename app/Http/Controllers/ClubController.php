@@ -5,7 +5,7 @@ use Illuminate\View\View;
 
 class ClubController extends Controller
 {
-    public function index(): View
+    function index(): View
     {
         $clubs = [
             ['name' => 'AI & Robotics', 'category' => 'Tech', 'day' => 'Rabu'],
