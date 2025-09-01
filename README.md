@@ -38,12 +38,12 @@ npm run dev
 
 ---
 
-## Screenshoot
+## Screenshot
 
 ### Tampilan /clubs
-![Alt text](path/to/image.png)
+![Alt text](assets/clubs.png)
 
 ### Tampilan Output php artisan route:list
-![Alt text](path/to/image.png)
+![Alt text](path/to/route-file.png)
 
 ---
